@@ -1,0 +1,34 @@
+version: "3.9"
+
+# Startet alle drei Portfolio-Projekte auf einmal.
+# Läuft identisch auf Linux, Windows und macOS.
+#
+# Alle starten:    docker-compose up
+# Einzeln starten: docker-compose up predictive-maintenance
+#                  docker-compose up network-monitor
+#                  docker-compose up sales-dashboard
+
+services:
+
+  predictive-maintenance:
+    build: ./predictive_maintenance
+    container_name: predictive-maintenance
+    volumes:
+      - ./predictive_maintenance/data:/app/data
+      - ./predictive_maintenance/docs:/app/docs
+
+  network-monitor:
+    build: ./network_monitor
+    container_name: network-monitor
+    network_mode: host
+    volumes:
+      - ./network_monitor/config.yaml:/app/config.yaml:ro
+      - ./network_monitor/docs:/app/docs
+    command: ["python", "main.py", "--loop"]
+
+  sales-dashboard:
+    build: ./sales_dashboard
+    container_name: sales-dashboard
+    volumes:
+      - ./sales_dashboard/data:/app/data
+      - ./sales_dashboard/docs:/app/docs

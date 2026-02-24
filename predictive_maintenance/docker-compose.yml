@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  predictive-maintenance:
+    build: .
+    container_name: predictive-maintenance
+    volumes:
+      - ./data:/app/data
+      - ./docs:/app/docs
+    command: ["python", "main.py"]

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Daten & Outputs (zu groß / generiert)
+*/data/*.db
+*/data/*.csv
+*/docs/*.png
+*/docs/*.xlsx
+*/docs/*.csv
+*/docs/report_*.json
+*/docs/report_*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
