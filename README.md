@@ -141,5 +141,4 @@ Dieses Portfolio ergänzt folgende abgeschlossene Zertifizierungen:
 
 ## Autor
 
-Portfolio für Bewerbungen im Bereich Fachinformatik (Ausbildung ab 2026).  
-Kontakt auf Anfrage.
+Verfügbar für Junior-Positionen / Projekte ab 2026.
