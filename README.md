@@ -140,6 +140,7 @@ Dieses Portfolio ergänzt folgende abgeschlossene Zertifizierungen:
 ---
 
 ## Autor
+Raffaele Conti
 
-Portfolio für Bewerbungen im Bereich Fachinformatik (Ausbildung ab 2026).  
-Kontakt auf Anfrage.
+##Note
+Dieses Portfolio ist der Beleg dafür, dass formale Titel zweitrangig sind, wenn die Fähigkeit vorhanden ist, produktionsreife Lösungen nach Industriestandard zu entwerfen, zu bauen und zu skalieren.
